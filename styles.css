@@ -1,0 +1,109 @@
+/* Google Fonts: Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* General Styles */
+
+body {
+    font-family: 'Poppins'; 
+    background-color: whitesmoke;
+    scroll-behavior: smooth;    
+}
+
+fieldset {
+    background-color: #cfcfcf;
+}
+
+/* Navbar Styles */
+
+a#logo {
+    color: rgb(255, 101, 0);        
+    font-size: 1.250rem;
+    font-weight: 700;       
+}
+
+/* Offers Page Styles */
+
+div#section-offers-title {    
+    width: 100%;
+    max-width: 98rem;
+    height: 5rem;
+    background: rgb(255, 101, 0);
+    margin-bottom: 0.75rem;    
+}
+
+h6.card-title {
+    min-height: 6rem;
+}
+
+h6#product-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(66, 70, 77);        
+}
+
+p#product-price {    
+    font-size: 1.250rem;    
+    font-weight: 700;    
+    color: rgb(255, 101, 0);
+}
+
+a#button-compre {
+    font-size: 1rem;    
+    font-weight: 700;      
+    width: 100%;
+    height: 100%;    
+    color: rgb(255, 255, 255);    
+    background: rgb(255, 101, 0);    
+}
+
+/* About Page Styles */
+
+h2#section-about-title {    
+    color: rgb(255, 101, 0);        
+    font-weight: 700;    
+}
+
+p#section-about-paragraph {   
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+    color: rgb(66, 70, 77);      
+}
+
+/* Offer Input Page Styles */
+
+h2#section-offerinput-title {    
+    color: rgb(255, 101, 0);        
+    font-weight: 700;    
+}
+
+p#section-offerinput-paragraph {   
+    text-align: justify;     
+    font-weight: 400;
+    color: rgb(66, 70, 77);      
+}
+
+button#button-cadastrar {
+    font-size: 1rem;    
+    font-weight: 700;      
+    width: 100%;
+    height: 100%;    
+    color: rgb(255, 255, 255);    
+    background: rgb(255, 101, 0);    
+}
+
+/* Terms and Conditions Page Styles */
+
+h2#section-terms-title {    
+    color: rgb(255, 101, 0);        
+    font-weight: 700;    
+}
+
+p#section-terms-paragraph {   
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+    color: rgb(66, 70, 77);      
+}

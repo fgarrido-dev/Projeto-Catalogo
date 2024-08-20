@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Encontre e compartilhe as melhores ofertas de informática! Catálogo colaborativo com promoções de várias lojas. Solicite e consulte ofertas exclusivas.">
+    <meta name="author" content="Felipe Garrido - Web Developer">
+    <title>TECH DEAL: Compartilhe e encontre as melhores ofertas em informática</title>
+    <!-- Bootstrap CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Folha de Estilos -->
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+
+    <header class="sticky-top">
+
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark p-4">
+            
+            <div class="container-fluid">
+
+                <div class="d-flex justify-content-center align-items-center gap-1">
+                    <img class="img-fluid" src="/Assets/offer-icon.png" width="30px" height="30px" alt="">
+                    <a class="navbar-brand m-0" id="logo" href="index.html">TECH DEAL</a>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="flex-grow: unset;">
+                        <ul class="navbar-nav gap-4">
+                            <li><a class="nav-link" aria-current="page" href="index.html">Home</a></li>
+                            <li><a class="nav-link" href="sobre.html">Sobre nós</a></li>
+                            <li><a class="nav-link" href="termos.html">Nossos Termos</a></li>
+                            <li><a type="button" href="cadastro.html" class="btn btn-danger">Cadastro de Oferta</a></li>              
+                        </ul>
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+    
+    <main class="px-3 py-3">
+          
+        <section class="container py-3">
+            
+            <h2 class="mb-3" id="section-offerinput-title">Cadastro de Ofertas</h2>
+
+            <p class="mb-0 lh-base" id="section-offerinput-paragraph">Encontrou uma super oferta de algum produto em informática? Deixe mais pessoas saberem!</p>            
+            <p class="mb-4 lh-base" id="section-offerinput-paragraph">Preencha o formulário abaixo para que um de nossos colaboradores avalie a oferta e, se der tudo certo, insira ela no catálogo para que mais pessoas possam aproveitar.</p>
+            
+            <form>
+                
+                <fieldset class="border p-4 mb-4 rounded-4">
+                    <legend class="w-auto">Seus dados</legend>
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Seu nome e sobrenome." required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="email" placeholder="Seu e-mail mais usado." required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="telefone" class="form-label">Telefone</label>
+                        <input type="tel" class="form-control" id="telefone" placeholder="Seu melhor número de telefone." required>
+                    </div>
+                </fieldset>    
+                
+                <fieldset class="border p-4 rounded-4">
+                    <legend class="w-auto">Dados do Produto</legend>
+                    <div class="mb-3">
+                        <label for="produtoNome" class="form-label">Nome do produto</label>
+                        <input type="text" class="form-control" id="produtoNome" placeholder="Envie aqui o nome do produto." required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="produtoDescricao" class="form-label">Descrição do produto</label>
+                        <textarea class="form-control" id="produtoDescricao" rows="3" placeholder="Envie aqui descrição detalhada do produto." required></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="produtoPreco" class="form-label">Preço do produto</label>
+                        <input type="number" step="0.01" class="form-control" id="produtoPreco" placeholder="Envie aqui o preço do produto. Por exemplo 50,00." required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="produtoImagem" class="form-label">Imagem do produto</label>
+                        <input type="file" class="form-control" id="produtoImagem" accept="image/*" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="produtoMarca" class="form-label">Marca do produto</label>
+                        <input type="text" class="form-control" id="produtoMarca" placeholder="Envie aqui o nome da marca do produto. Por exemplo: HP, Logitech, Redragon, etc." required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="produtoCategoria" class="form-label">Categoria do produto</label>
+                        <select class="form-select" id="produtoCategoria" required>
+                            <option selected disabled>Selecione uma categoria</option>
+                            <option value="eletronicos">Cadeiras</option>
+                            <option value="eletronicos">Gabinetes</option>
+                            <option value="eletronicos">Hardware</option>
+                            <option value="roupas">Mesas</option>
+                            <option value="alimentos">Monitores</option>
+                            <option value="livros">Notebooks</option>
+                            <option value="moveis">PC's</option>
+                            <option value="moveis">Periféricos</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="produtoLoja" class="form-label">Loja que oferta o produto</label>
+                        <input type="text" class="form-control" id="produtoLoja" placeholder="Envie aqui o nome da loja que oferta o produto. Por exemplo: Kabum, Terabyte, Pichau, etc." required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="produtoLink" class="form-label">Link da oferta na loja</label>
+                        <input type="url" class="form-control" id="produtoLink" placeholder="Envie aqui o link da página do produto em oferta na loja." required>
+                    </div>
+                </fieldset>
+                
+                <p class="mt-3 mb-0 lh-base" id="section-offerinput-paragraph">Ao clicar no botão "Cadastrar Oferta" você concorda com os <a href="termos.html">Termos e Condições</a> da TECH DEAL para o uso do site, bem como para o Cadastro de Ofertas e demais funcionalidades.</p>
+
+                <button type="submit" class="btn fs-5 p-2 mt-3" id="button-cadastrar">Cadastrar Oferta</button>
+            </form>
+
+        </section>
+
+    </main>    
+
+    <footer class="bg-dark text-white text-center p-4">
+
+        <p class="mb-0">&copy; 2024 Desenvolvido por Felipe Garrido. Todos os direitos reservados.</p>
+
+    </footer>
+
+    <!-- Script Bootstrap -->    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
