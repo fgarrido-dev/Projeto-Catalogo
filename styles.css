@@ -15,7 +15,7 @@ fieldset {
 
 /* Navbar Styles */
 
-a#logo {
+a.logo {
     color: rgb(255, 101, 0);        
     font-size: 1.250rem;
     font-weight: 700;       
@@ -35,19 +35,19 @@ h6.card-title {
     min-height: 6rem;
 }
 
-h6#product-title {
+h6.product-title {
     font-size: 1rem;
     font-weight: 600;
     color: rgb(66, 70, 77);        
 }
 
-p#product-price {    
+p.product-price {    
     font-size: 1.250rem;    
     font-weight: 700;    
     color: rgb(255, 101, 0);
 }
 
-a#button-compre {
+a.button-compre {
     font-size: 1rem;    
     font-weight: 700;      
     width: 100%;
@@ -58,12 +58,12 @@ a#button-compre {
 
 /* About Page Styles */
 
-h2#section-about-title {    
+h2.section-about-title {    
     color: rgb(255, 101, 0);        
     font-weight: 700;    
 }
 
-p#section-about-paragraph {   
+p.section-about-paragraph {   
     text-align: justify;
     font-size: 1rem;
     line-height: 1.8rem;
@@ -73,18 +73,18 @@ p#section-about-paragraph {
 
 /* Offer Input Page Styles */
 
-h2#section-offerinput-title {    
+h2.section-offerinput-title {    
     color: rgb(255, 101, 0);        
     font-weight: 700;    
 }
 
-p#section-offerinput-paragraph {   
+p.section-offerinput-paragraph {   
     text-align: justify;     
     font-weight: 400;
     color: rgb(66, 70, 77);      
 }
 
-button#button-cadastrar {
+button.button-cadastrar {
     font-size: 1rem;    
     font-weight: 700;      
     width: 100%;
@@ -95,12 +95,12 @@ button#button-cadastrar {
 
 /* Terms and Conditions Page Styles */
 
-h2#section-terms-title {    
+h2.section-terms-title {    
     color: rgb(255, 101, 0);        
     font-weight: 700;    
 }
 
-p#section-terms-paragraph {   
+p.section-terms-paragraph {   
     text-align: justify;
     font-size: 1rem;
     line-height: 1.8rem;
