@@ -16,9 +16,32 @@ fieldset {
 /* Navbar Styles */
 
 a.logo {
-    color: rgb(255, 101, 0);        
+    color: white;        
     font-size: 1.250rem;
     font-weight: 700;       
+}
+
+a.nav-link {
+    color: white;
+}
+
+a.nav-link:hover {
+    color: #DC3545;
+    transition: color .5s ease;   
+}
+
+a.button-nav-cadastro {
+    color: white;
+    background-color: #DC3545;
+}
+
+a.button-nav-cadastro:hover {
+    color: white;
+    background-color: #DC3545;
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: .5s ease;
 }
 
 /* Offers Page Styles */
@@ -56,6 +79,11 @@ a.button-compre {
     background: #0000FF;    
 }
 
+a.button-compre:hover {
+    background-color: #DC3545;
+    color: white;       
+}
+
 /* About Page Styles */
 
 h2.section-about-title {    
@@ -91,6 +119,11 @@ button.button-cadastrar {
     height: 100%;    
     color: rgb(255, 255, 255);    
     background: #0000FF;    
+}
+
+button.button-cadastrar:hover {
+    background-color: #DC3545;
+    color: white;
 }
 
 /* Terms and Conditions Page Styles */
