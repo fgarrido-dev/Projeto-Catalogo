@@ -27,7 +27,7 @@ div#section-offers-title {
     width: 100%;
     max-width: 98rem;
     height: 5rem;
-    background: rgb(255, 101, 0);
+    background: #0000FF;
     margin-bottom: 0.75rem;    
 }
 
@@ -44,7 +44,7 @@ h6.product-title {
 p.product-price {    
     font-size: 1.250rem;    
     font-weight: 700;    
-    color: rgb(255, 101, 0);
+    color: #0000FF;
 }
 
 a.button-compre {
@@ -53,13 +53,13 @@ a.button-compre {
     width: 100%;
     height: 100%;    
     color: rgb(255, 255, 255);    
-    background: rgb(255, 101, 0);    
+    background: #0000FF;    
 }
 
 /* About Page Styles */
 
 h2.section-about-title {    
-    color: rgb(255, 101, 0);        
+    color: #0000FF;        
     font-weight: 700;    
 }
 
@@ -74,7 +74,7 @@ p.section-about-paragraph {
 /* Offer Input Page Styles */
 
 h2.section-offerinput-title {    
-    color: rgb(255, 101, 0);        
+    color: #0000FF;        
     font-weight: 700;    
 }
 
@@ -90,13 +90,13 @@ button.button-cadastrar {
     width: 100%;
     height: 100%;    
     color: rgb(255, 255, 255);    
-    background: rgb(255, 101, 0);    
+    background: #0000FF;    
 }
 
 /* Terms and Conditions Page Styles */
 
 h2.section-terms-title {    
-    color: rgb(255, 101, 0);        
+    color: #0000FF;        
     font-weight: 700;    
 }
 
