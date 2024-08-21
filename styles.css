@@ -9,8 +9,9 @@ body {
     scroll-behavior: smooth;    
 }
 
-fieldset {
-    background-color: #cfcfcf;
+h1 {
+    color: #0000FF;        
+    font-weight: 700; 
 }
 
 /* Navbar Styles */
@@ -44,24 +45,13 @@ a.button-nav-cadastro:hover {
     transition: .5s ease;
 }
 
-/* Offers Page Styles */
-
-div#section-offers-title {    
-    width: 100%;
-    max-width: 98rem;
-    height: 5rem;
-    background: #0000FF;
-    margin-bottom: 0.75rem;    
-}
-
-h6.card-title {
-    min-height: 6rem;
-}
+/* Home Page Styles */
 
 h6.product-title {
+    min-height: 6rem;
     font-size: 1rem;
     font-weight: 600;
-    color: rgb(66, 70, 77);        
+    color: rgb(66, 70, 77);
 }
 
 p.product-price {    
@@ -84,32 +74,39 @@ a.button-compre:hover {
     color: white;       
 }
 
-/* About Page Styles */
+/* Sobre nos Page Styles */
 
-h2.section-about-title {    
-    color: #0000FF;        
-    font-weight: 700;    
-}
-
-p.section-about-paragraph {   
-    text-align: justify;
-    font-size: 1rem;
+p.paragraph-sobre-nos {   
+    text-align: justify;        
     line-height: 1.8rem;
     font-weight: 400;
     color: rgb(66, 70, 77);      
 }
 
-/* Offer Input Page Styles */
+/* Termos e Condicoes Page Styles */
 
-h2.section-offerinput-title {    
-    color: #0000FF;        
-    font-weight: 700;    
+h2.subtitle-termos-e-condicoes {
+    font-size: 1rem;
 }
 
-p.section-offerinput-paragraph {   
-    text-align: justify;     
+p.paragraph-termos-e-condicoes {   
+    text-align: justify;    
+    line-height: 1.8rem;
     font-weight: 400;
     color: rgb(66, 70, 77);      
+}
+
+/* Cadastro de Ofertas Page Styles */
+
+fieldset {
+    background-color: #cfcfcf;
+}
+
+p.paragraph-cadastro-de-ofertas {   
+    text-align: justify;
+    font-size: 1rem;    
+    font-weight: 400;
+    color: rgb(66, 70, 77);     
 }
 
 button.button-cadastrar {
@@ -124,19 +121,4 @@ button.button-cadastrar {
 button.button-cadastrar:hover {
     background-color: #DC3545;
     color: white;
-}
-
-/* Terms and Conditions Page Styles */
-
-h2.section-terms-title {    
-    color: #0000FF;        
-    font-weight: 700;    
-}
-
-p.section-terms-paragraph {   
-    text-align: justify;
-    font-size: 1rem;
-    line-height: 1.8rem;
-    font-weight: 400;
-    color: rgb(66, 70, 77);      
 }
