@@ -54,10 +54,24 @@ h6.product-title {
     color: rgb(66, 70, 77);
 }
 
+p.product-price-before {    
+    font-size: .8rem;    
+    font-weight: 500;    
+    color: #42464D;
+    text-decoration: line-through;
+    color: #DC3545;
+}
+
 p.product-price {    
     font-size: 1.250rem;    
     font-weight: 700;    
     color: #0000FF;
+}
+
+p.pix-discount {
+    font-size: .8rem;    
+    font-weight: 500;    
+    color: green;    
 }
 
 a.button-compre {
