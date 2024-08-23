@@ -47,6 +47,10 @@ a.button-nav-cadastro:hover {
 
 /* Home Page Styles */
 
+div.card-body {
+    background-color: rgb(240, 240, 240);
+}
+
 h6.product-title {
     min-height: 6rem;
     font-size: 1rem;
