@@ -1,17 +1,17 @@
-## Santander Coders 2024 | Módulo 1 - Front-End Estático | Projeto Final: Catálogo
+## Santander Coders 2024 | Módulo 1 - Front-End Estático | Projeto 2: Catálogo
 
-- Projeto final individual realizado com os conhecimentos obtidos ao longo do módulo de Front-End Estático durante a formação Desenvolvimento Front-end do Santander Coders 2024.
+- Projeto individual realizado com os conhecimentos obtidos na segunda metade do módulo de Front-End Estático durante a formação Desenvolvimento Front-end do Santander Coders 2024.
 
 ## Professor
 - [Luís Fernando Teixeira Bicalho](https://www.linkedin.com/in/lu%C3%ADs-fernando-teixeira-bicalho-a4b210158/)
 
 ## Descrição do projeto
 
-Desenvolver, utilizando os conceitos abordados ao longo do módulo, um catálogo/cardápio digital.
+Desenvolver, utilizando os conceitos abordados ao longo do módulo, um catálogo digital.
 
 ## Requisitos
 
-- Fazer um cardápio/catálogo digital;
+- Fazer um catálogo digital;
 - Todo produto deste cardápio/catálogo deve possuir uma imagem, um nome e um preço;
 - É necessário ter um header com navegação para outras páginas HTML (Sobre e Cadastro), que deverá colapsar a partir de uma certa largura;
 - A página de sobre deve ter uma imagem grande e uma descrição;
