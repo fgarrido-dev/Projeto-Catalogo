@@ -1,11 +1,11 @@
-# Santander Coders 2024 | Módulo 1 - Front-End Estático | Projeto Final: Catálogo
+## Santander Coders 2024 | Módulo 1 - Front-End Estático | Projeto Final: Catálogo
 
 - Projeto final individual realizado com os conhecimentos obtidos ao longo do módulo de Front-End Estático durante a formação Desenvolvimento Front-end do Santander Coders 2024.
 
 ## Professor
 - [Luís Fernando Teixeira Bicalho](https://www.linkedin.com/in/lu%C3%ADs-fernando-teixeira-bicalho-a4b210158/)
 
-# Descrição do projeto
+## Descrição do projeto
 
 Desenvolver, utilizando os conceitos abordados ao longo do módulo, um catálogo/cardápio digital.
 
@@ -26,7 +26,7 @@ Desenvolver, utilizando os conceitos abordados ao longo do módulo, um catálogo
 - CSS
 - Bootstrap
 
-# Resultado final
+## Resultado final
 
 ![](Assets/screenshot-home.png)
 
